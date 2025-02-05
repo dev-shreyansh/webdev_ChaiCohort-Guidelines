@@ -1,0 +1,30 @@
+1. Communication Etiquette
+    Use Appropriate Channels: Slack, Teams, or email for different purposes. Use threads and tags to keep conversations organized.
+    Be Clear and Concise: When asking for help, provide enough context and details (e.g., error messages, code snippets).
+    Respect Time Zones: If it’s a global team, be mindful of others' working hours.
+2. Code Collaboration Standards
+    Version Control Discipline: Use Git or similar tools with proper branching strategies (e.g., GitFlow).
+    Write Clear Commit Messages: Follow conventions like “Imperative mood” (e.g., Fix bug in login flow).
+    Code Reviews: Participate actively and constructively. Give feedback that’s specific, actionable, and respectful.
+    Pull Requests (PRs): Keep them small, focused, and well-documented. Link them to relevant tasks or issues.
+3. Documentation Expectations
+    Comment Thoughtfully: Write comments for complex logic but avoid over-commenting obvious code.
+    Update Documentation: Keep README files, API docs, and internal wikis current.
+    Write Specs/Proposals: For bigger changes, draft technical specs and circulate them for feedback.
+4. Coding Practices
+    Follow Coding Standards: Stick to language-specific style guides (e.gx., PEP8 for Python, Airbnb for JavaScript).
+    Write Tests: Unit tests, integration tests, and ensure code coverage thresholds are met.
+    Don’t Break the Build: Always ensure your code passes tests before merging.
+5. Meetings and Standups
+    Daily Standups: Keep updates brief—what you did, what you’re doing, blockers.
+    Sprint Planning/Retros: Engage in planning sessions and give constructive feedback in retrospectives.
+6. Respect and Inclusivity
+    Respect Diverse Opinions: Tech discussions can get heated; maintain professionalism.
+    Help Others: Be open to mentoring juniors or onboarding new teammates.
+    Acknowledge Contributions: Give credit where it's due, whether it’s in code reviews or during meetings.
+7. Security & Confidentiality
+    Secure Code Practices: Be mindful of sensitive data, avoid hardcoding credentials, and follow secure coding guidelines.
+    Respect NDAs: Don’t share proprietary code or information outside the company.
+8. Tool and Environment Usage
+    Use Approved Tools: Stick to company-sanctioned IDEs, libraries, or frameworks unless otherwise discussed.
+    Maintain Local Environment: Ensure your local dev environment mirrors production as closely as possible.

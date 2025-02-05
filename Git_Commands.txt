@@ -1,0 +1,10 @@
+git init
+git add <filename>
+git add .
+git status
+git commit -m "message"
+git log
+git diff
+git reset <file>
+git remote add <name url>
+

@@ -1,0 +1,90 @@
+ChaiCohort: Git Commit Guidelines for Developers
+Welcome to ChaiCohort! To keep our codebase as smooth as your favorite cup of chai, we've laid out some simple Git guidelines. Follow these to ensure seamless collaboration, clean code, and hassle-free merges.
+
+1. Stick to a Consistent Commit Message Format
+
+    ChaiCohort Commit Conventions:
+
+    feat: add login functionality
+    fix: resolve bug in payment processing
+    docs: update README with installation steps
+    refactor: clean up authentication logic
+
+    Be Clear and Concise: Summarize what you did, not how you did it.
+    Bad: fixed stuff
+    Good: fix: correct null pointer exception in user model
+
+2. Commit Early, Commit Often (But Meaningfully)
+
+    Make Atomic Commits: Each commit should represent a single logical change. Avoid bundling unrelated fixes.
+
+    Avoid Large Commits: Break big features into smaller, manageable commits. It’s easier for chai breaks and code reviews!
+
+3. Test Before You Commit
+
+    Run Tests Locally: Ensure your code passes all unit, integration, or end-to-end tests before committing.
+
+    Linting & Formatting: Run linters and formatters (like ESLint, Prettier) to catch syntax/style issues early.
+
+4. Write Descriptive Commit Descriptions (If Needed)
+
+    Extended Descriptions: For more complex commits, include a detailed description explaining why the change was made.
+
+    Example:
+
+    feat: add password reset functionality
+
+    - Implemented password reset endpoint
+    - Added email notifications for reset link
+    - Updated User schema to include reset tokens
+
+    Reference Issues/Tickets: Link your commits to JIRA/Trello tickets for clarity:
+
+    fix: correct typo in email template (JIRA-1234)
+
+5. Use Branching Strategies Properly
+
+    Feature Branches: Always create a new branch for new features, bugs, or experiments (e.g., feature/login-page or bugfix/fix-header).
+
+    Don’t Commit to main or master: All changes go through branches with pull requests (PRs).
+
+    Keep Branches Updated: Regularly pull from main to stay up-to-date and resolve conflicts early.
+
+6. Keep Commit History Clean
+
+    Squash Commits (if required): Before merging, squash multiple small commits into one to keep the history clean.
+
+    Rebase Instead of Merge (if required): Prefer git rebase to maintain a linear commit history.
+
+    Avoid WIP (Work In Progress) Commits: Don’t commit incomplete or broken code unless on a separate experimental branch.
+
+7. Don’t Commit Sensitive Information
+
+    No Secrets/Passwords: Never commit API keys, passwords, or sensitive data. Use environment variables or secret managers.
+
+    Use .gitignore Properly: Exclude temporary files, logs, and build artifacts.
+
+8. Follow Review and Merge Policies
+
+    Open a PR for Every Change: Push your branch and create a pull request for peer review.
+
+    Address Review Comments Promptly: Be responsive to feedback and make necessary changes before merging.
+
+    Merge Only After Approval: Never merge without passing all checks (tests, code reviews) unless explicitly allowed.
+
+9. Tag Releases (If Applicable)
+
+    Version Tags: When deploying or releasing, tag commits using semantic versioning:
+
+    v1.0.0, v1.1.0, v1.1.1
+
+10. Handle Conflicts Responsibly
+
+    Resolve Conflicts Locally: Never push unresolved conflicts. Communicate with teammates if conflicts are complex.
+
+    Test After Resolving: Always re-run tests after fixing merge conflicts.
+
+By following these guidelines, you'll help keep ChaiCohort brewing with clean, collaborative, and efficient development. Happy coding—and don’t forget to sip some chai while you're at it! 🍵🚀
+
+#ChaiCohort #GitGuidelines #CleanCode
+
