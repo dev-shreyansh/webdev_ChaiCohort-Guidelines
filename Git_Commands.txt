@@ -1,10 +1,27 @@
-git init
-git add <filename>
-git add .
-git status
-git commit -m "message"
-git log
-git diff
-git reset <file>
-git remote add <name url>
+git init : Initialize a new Git repository
+git clone <url> : Clone a repository from a URL
+git add <filename> : Stage a file for commit
+git add . : Stage all changes in the current
+            directory
+git status : Show the status of the working
+             directory
+git commit -m "message" : Commit staged changes with a message
+git log : View commit history
+git diff : Show differences between working files
+git reset <file> : Unstage a file
+git remote add <name url> : Add a remote repository
+
+git push : Push commits to a remote repository
+git pull : Fetch and merge changes from a remote
+            repo
+git branch : List branches
+git branch <name> : Create a new branch
+git checkout <branch> : Switch to a specific branch
+git merge <branch> : Merge a branch into the current branch
+git stash : Save changes without committing
+git stash pop : Reapply stashed changes
+git fetch : Download objects and refs from another
+            repo
+git rebase <branch> : Reapply commits on top of another
+                      branch
 
